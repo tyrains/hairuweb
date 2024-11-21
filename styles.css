@@ -5,61 +5,62 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    background: linear-gradient(135deg, #f6e7ea 0%, #faf2f4 100%);
-    color: #1D1D1D;
+    font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    background: #f5f6f7;
+    color: #333;
     line-height: 1.6;
     min-height: 100vh;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 
 header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2.8em;
     margin-bottom: 15px;
-    background: linear-gradient(to right, #2D3748 20%, #4A5568 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    letter-spacing: -0.03em;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .subtitle {
-    font-size: 1.4em;
-    color: #4A5568;
-    font-weight: 500;
+    font-size: 1.2em;
+    color: #666;
+    font-weight: normal;
 }
 
 section {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    padding: 40px;
-    margin-bottom: 40px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(20px);
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #E85A71;
-    margin-bottom: 25px;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.02em;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
 }
 
 .about-content p {
-    margin-bottom: 20px;
-    color: #2D3748;
-    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 1em;
     line-height: 1.8;
 }
 
@@ -70,32 +71,30 @@ h2 {
 }
 
 .link-item {
-    color: #E85A71;
+    color: #666;
     text-decoration: none;
-    padding: 12px 24px;
-    background: rgba(232, 90, 113, 0.1);
-    border-radius: 30px;
-    transition: all 0.3s ease;
-    font-weight: 500;
-    font-size: 1.1em;
+    padding: 8px 20px;
+    background: #f5f6f7;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    font-size: 0.95em;
 }
 
 .link-item:hover {
-    background: rgba(232, 90, 113, 0.2);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(232, 90, 113, 0.15);
+    background: #e9ecef;
+    color: #333;
 }
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
     
     .container {
-        padding: 30px 15px;
+        padding: 20px 15px;
     }
     
     section {
-        padding: 30px 20px;
+        padding: 20px;
     }
 } 
