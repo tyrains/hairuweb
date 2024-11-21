@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    background: linear-gradient(135deg, #6851FF 0%, #BA43FF 100%);
+    background: linear-gradient(135deg, #f6e7ea 0%, #faf2f4 100%);
     color: #1D1D1D;
     line-height: 1.6;
     min-height: 100vh;
@@ -26,7 +26,7 @@ header {
 h1 {
     font-size: 4em;
     margin-bottom: 15px;
-    background: linear-gradient(to right, #FFFFFF 20%, #E2E8F0 100%);
+    background: linear-gradient(to right, #2D3748 20%, #4A5568 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
@@ -35,7 +35,7 @@ h1 {
 
 .subtitle {
     font-size: 1.4em;
-    color: rgba(255, 255, 255, 0.9);
+    color: #4A5568;
     font-weight: 500;
 }
 
@@ -49,7 +49,7 @@ section {
 }
 
 h2 {
-    color: #6851FF;
+    color: #E85A71;
     margin-bottom: 25px;
     font-size: 2em;
     font-weight: 700;
@@ -70,10 +70,10 @@ h2 {
 }
 
 .link-item {
-    color: #6851FF;
+    color: #E85A71;
     text-decoration: none;
     padding: 12px 24px;
-    background: rgba(104, 81, 255, 0.1);
+    background: rgba(232, 90, 113, 0.1);
     border-radius: 30px;
     transition: all 0.3s ease;
     font-weight: 500;
@@ -81,9 +81,9 @@ h2 {
 }
 
 .link-item:hover {
-    background: rgba(104, 81, 255, 0.2);
+    background: rgba(232, 90, 113, 0.2);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(104, 81, 255, 0.15);
+    box-shadow: 0 4px 12px rgba(232, 90, 113, 0.15);
 }
 
 @media (max-width: 600px) {
