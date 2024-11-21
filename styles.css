@@ -50,17 +50,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-h1::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.8);
-}
-
 .subtitle {
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.9);
